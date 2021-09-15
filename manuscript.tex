@@ -27,14 +27,15 @@
 \usepackage{tcolorbox}
 \tcbuselibrary{skins,breakable}
 
-\newtcolorbox[auto counter, number within = chapter, number freestyle = {\noexpand\thechapter.\noexpand\arabic{\tcbcounter}}]{mybox}[2][]{%
+\newtcolorbox[auto counter]{mybox}[2][]{%
     enhanced,
     fonttitle = \bfseries,
     title = Box~1: #2,
     #1
     }
 
-% \linenumbers # commented out when sending the abstract
+% commented out when sending the abstract
+\linenumbers
 
 % Leave a blank line between paragraphs instead of using \\
 
@@ -91,7 +92,7 @@ The ability to mentally examine our thoughts is central to our subjective experi
 
 The motor simulation theory \citep{jeannerod_origin_2006, jeannerod_representing_1994, jeannerod_neural_2001} of motor imagery postulates the existence of a continuum between the covert and the overt execution of an action and that action representations can operate off-line via a simulation mechanism. In short, covert actions would rely on the same set of mechanisms as the overt actions they simulate, except that execution is inhibited \citep{oshea_does_2017}. In this perspective, we examine some theoretical and experimental consequences that emerge when considering covert speech as inhibited overt speech. We explore two main themes. First, we discuss the under-explored role of inhibitory mechanisms during covert speech production and their plausible neural implementation. Second, we consider how different forms of covert speech may involve inhibitory mechanisms differently. By bridging together recent results from the motor imagery, motor inhibition, and covert speech literature, we highlight some novel and possibly fruitful lines of research.
 
-\section{Covert verbal actions as inhibited verbal actions}
+\section{Covert speech production as inhibited overt speech production}
 
 The proposal that overt and covert actions share common neural circuits is faced with a serious problem. If the neural circuits used for the control of overt actions are reused for covert actions, how can covert actions not lead to execution? This puzzle, coined as \textit{the problem of inhibition} by \cite{jeannerod_neural_2001}, can be rephrased as follows: given the putative role of the motor system in providing the multisensory content of motor imagery, how is it possible for motor imagery not to lead to motor execution? In the following, we briefly summarise the evidence in favour of the view of covert speech as inhibited overt speech. Then, we outline some working hypotheses regarding the cognitive and neural implementation of these inhibitory mechanisms. Finally, we relate this view to the presumed progressive internalisation of speech during childhood.
 
@@ -232,7 +233,7 @@ No novel data were used in this paper. However, the source (\LaTeX) code is avai
 \begin{center}
 \includegraphics[width=0.75\textwidth]{figures/inhibitory_triangle.png} % This is a *.eps file
 \end{center}
-\caption{Plausible neural implementation of the (cortical and subcortical) inhibitory mechanisms responsible for the "proactive" (but implicit) response inhibition at play during motor imagery. The preSMA, right pIFC, and STN together form an \textit{inhibitory network} known as the \textit{inhibitory triangle}, which may be responsible for braking motor commands during covert speech production. Figure created with BioRender.com. FIGURE IN PROGRESS.}\label{fig:2}
+\caption{Plausible implementation of the cortical and subcortical inhibitory mechanisms responsible for the "proactive" (but implicit) response inhibition at play during covert speech production. The preSMA, right pIFC, and STN together form an \textit{inhibitory network} known as the \textit{inhibitory triangle}, which may be responsible for braking motor commands during covert speech production. Figure created with BioRender.com. FIGURE IN PROGRESS.}\label{fig:2}
 \end{figure}
 
 %%% If you are submitting a figure with subfigures please combine these into one image file with part labels integrated.
