@@ -1,4 +1,4 @@
-\newcommand\classname{frontiersSCNS} %this file is based in bioninfo.cls
+\newcommand\classname{template/frontiersSCNS} %this file is based in bioninfo.cls
 \newcommand\lastmodifieddate{2016/11/10}
 \newcommand\versionnumber{2.6}
 
@@ -36,6 +36,7 @@
 \def\helveticabolditalic{\fontfamily{phv}\bfseries\itshape\selectfont}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage[labelsep=quad,indention=10pt]{caption}
+%\usepackage{caption}
 \usepackage[labelfont=bf,list=true]{subcaption}
 
 \newcommand\@ptsize{0}
